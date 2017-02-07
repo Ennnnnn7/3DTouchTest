@@ -13,6 +13,7 @@
 		568B19F51E38412500A189E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568B19F31E38412500A189E7 /* Main.storyboard */; };
 		568B19F71E38412500A189E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568B19F61E38412500A189E7 /* Assets.xcassets */; };
 		568B19FA1E38412500A189E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568B19F81E38412500A189E7 /* LaunchScreen.storyboard */; };
+		568B1A031E38503100A189E7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568B1A021E38503100A189E7 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		568B19F61E38412500A189E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568B19F91E38412500A189E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568B19FB1E38412600A189E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568B1A011E38503100A189E7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		568B1A021E38503100A189E7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				568B19EE1E38412500A189E7 /* AppDelegate.m */,
 				568B19F01E38412500A189E7 /* ViewController.h */,
 				568B19F11E38412500A189E7 /* ViewController.m */,
+				568B1A011E38503100A189E7 /* DetailViewController.h */,
+				568B1A021E38503100A189E7 /* DetailViewController.m */,
 				568B19F31E38412500A189E7 /* Main.storyboard */,
 				568B19F61E38412500A189E7 /* Assets.xcassets */,
 				568B19F81E38412500A189E7 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				568B19F21E38412500A189E7 /* ViewController.m in Sources */,
 				568B19EF1E38412500A189E7 /* AppDelegate.m in Sources */,
 				568B19EC1E38412500A189E7 /* main.m in Sources */,
+				568B1A031E38503100A189E7 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HB22SQJ4PW;
 				INFOPLIST_FILE = TouchTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TouchTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HB22SQJ4PW;
 				INFOPLIST_FILE = TouchTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TouchTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +318,7 @@
 				568B1A001E38412600A189E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
